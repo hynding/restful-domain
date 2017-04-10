@@ -1,0 +1,25 @@
+{
+  "name": "restful-domain",
+  "version": "1.0.0",
+  "description": "A NodeJS, RESTful, extendable class for building competent web hooks and APIs",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d build",
+    "test": "./node_modules/.bin/cucumber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hynding/restful-domain.git"
+  },
+  "author": "Steve Hynding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hynding/restful-domain/issues"
+  },
+  "homepage": "https://github.com/hynding/restful-domain#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
+    "cucumber": "^1.3.2"
+  }
+}
